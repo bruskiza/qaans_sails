@@ -24,16 +24,14 @@ module.exports = {
     downvoteCount: {
       type: 'integer',
       defaultsTo: 0
-
     },
     upvoteCount: {
       type: 'integer',
       defaultsTo: 0
-
     },
     answers: {
       collection: 'answer',
-      via: 'id'
+      via: 'parentItem'
     },
     text: {
       type: 'string',

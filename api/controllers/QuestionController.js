@@ -6,6 +6,8 @@
  */
 
 module.exports = {
-	
-};
+	answerCount: function (req, res) {
+		return res.send('Hi, there!');
+	}
 
+};
