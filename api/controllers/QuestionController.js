@@ -7,7 +7,9 @@
 
 module.exports = {
 	answerCount: function (req, res) {
-		return res.send('Hi, there!');
+		console.log(req);
+		console.log(res);
+		return res.send('Hi, there frank!');
 	}
 
 };
